@@ -18,6 +18,7 @@ if (!$resultado_select) {
 	while ($row = mysqli_fetch_array($resultado_select)) {
 		//aqui usamos a variavel escolhida para nos referenciarmos ao item resultado do SELECT
         echo $row[1];
+	echo $row[2];
 	}
     //liberamos os resultados obtidos
     mysqli_free_result($resultado_select);
