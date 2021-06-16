@@ -10,4 +10,5 @@ if (mysqli_query($mysqli, $query_insert)) {
     echo "<script>alert('ERRO! Tente novamente');</script>";
 }
 
+//também pode ser usado para updates e deletes
 ?>
